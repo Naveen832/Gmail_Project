@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.331">
+    <testcase classname="Check Login Functionality" name="user should be able to access registeration page" time="0.112">
+        <system-out><![CDATA[Given brower is open........................................................passed
+When user enters the url....................................................passed
+Then user is redirected to the registeration page...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

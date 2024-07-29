@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-11T09:51:36 IST" name="Default suite" finished-at="2021-06-11T09:51:57 IST" duration-ms="20750">
+    <groups>
+    </groups>
+    <test started-at="2021-06-11T09:51:36 IST" name="Default test" finished-at="2021-06-11T09:51:57 IST" duration-ms="20750">
+      <class name="stepdefinition.firstCrySearch">
+        <test-method is-config="true" signature="f()[pri:0, instance:stepdefinition.firstCrySearch@63355449]" started-at="2021-06-11T09:51:36 IST" name="f" finished-at="2021-06-11T09:51:44 IST" duration-ms="7596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f2()[pri:0, instance:stepdefinition.firstCrySearch@63355449]" started-at="2021-06-11T09:51:44 IST" name="f2" finished-at="2021-06-11T09:51:57 IST" duration-ms="13054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- stepdefinition.firstCrySearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

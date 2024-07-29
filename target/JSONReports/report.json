@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-03T11:22:09.791Z",
+        "line": 3,
+        "name": "user should be able to access registeration page",
+        "description": "",
+        "id": "check-login-functionality;user-should-be-able-to-access-registeration-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90\nCurrent browser version is 114.0.5735.199 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80032459\u0027, ip: \u002710.50.139.125\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x0042C013+2474003]\n\tOrdinal0 [0x003C29C1+2042305]\n\tOrdinal0 [0x002D2F68+1060712]\n\tOrdinal0 [0x002F188E+1185934]\n\tOrdinal0 [0x002ED600+1168896]\n\tOrdinal0 [0x002EAA83+1157763]\n\tOrdinal0 [0x0031A2A2+1352354]\n\tOrdinal0 [0x00318FAA+1347498]\n\tOrdinal0 [0x003166DB+1337051]\n\tOrdinal0 [0x002F3427+1192999]\n\tOrdinal0 [0x002F42EE+1196782]\n\tOrdinal0 [0x002F4279+1196665]\n\tGetHandleVerifier [0x005B96FC+1590332]\n\tGetHandleVerifier [0x00668614+2306900]\n\tGetHandleVerifier [0x004B9E93+543699]\n\tGetHandleVerifier [0x004B92CE+540686]\n\tOrdinal0 [0x003C86BA+2066106]\n\tOrdinal0 [0x003CD1C8+2085320]\n\tOrdinal0 [0x003CD308+2085640]\n\tOrdinal0 [0x003D67F3+2123763]\n\tBaseThreadInitThunk [0x76E27D59+25]\n\tRtlInitializeExceptionChain [0x77A6B74B+107]\n\tRtlClearBits [0x77A6B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdefinition.TC1_steps.brower_is_open(TC1_steps.java:19)\r\n\tat ✽.browser is open(file:///C:/Users/NVISWANA/Downloads/gmailMaven(1)/Gmail_maven/src/test/resources/Features/registration.feature:4)\r\n",
+              "duration": 1998651300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "stepdefinition.TC1_steps.brower_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters the url",
+            "match": {
+              "location": "stepdefinition.TC1_steps.user_enters_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is redirected to home page",
+            "match": {
+              "location": "stepdefinition.TC1_steps.user_is_redirected_to_the_registeration_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on create account and then myself",
+            "match": {
+              "location": "stepdefinition.TC1_steps.user_clicks_on_create_account_and_then_myself()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is redirected to registeration page",
+            "match": {
+              "location": "stepdefinition.TC1_steps.user_is_redirected_to_registeration_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-03T11:22:11.862Z",
+        "line": 10,
+        "name": "user should be able to enter data in regirstration form",
+        "description": "",
+        "id": "check-login-functionality;user-should-be-able-to-enter-data-in-regirstration-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90\nCurrent browser version is 114.0.5735.199 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80032459\u0027, ip: \u002710.50.139.125\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x0042C013+2474003]\n\tOrdinal0 [0x003C29C1+2042305]\n\tOrdinal0 [0x002D2F68+1060712]\n\tOrdinal0 [0x002F188E+1185934]\n\tOrdinal0 [0x002ED600+1168896]\n\tOrdinal0 [0x002EAA83+1157763]\n\tOrdinal0 [0x0031A2A2+1352354]\n\tOrdinal0 [0x00318FAA+1347498]\n\tOrdinal0 [0x003166DB+1337051]\n\tOrdinal0 [0x002F3427+1192999]\n\tOrdinal0 [0x002F42EE+1196782]\n\tOrdinal0 [0x002F4279+1196665]\n\tGetHandleVerifier [0x005B96FC+1590332]\n\tGetHandleVerifier [0x00668614+2306900]\n\tGetHandleVerifier [0x004B9E93+543699]\n\tGetHandleVerifier [0x004B92CE+540686]\n\tOrdinal0 [0x003C86BA+2066106]\n\tOrdinal0 [0x003CD1C8+2085320]\n\tOrdinal0 [0x003CD308+2085640]\n\tOrdinal0 [0x003D67F3+2123763]\n\tBaseThreadInitThunk [0x76E27D59+25]\n\tRtlInitializeExceptionChain [0x77A6B74B+107]\n\tRtlClearBits [0x77A6B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdefinition.TC2_steps.the_user_is_at_registeration_page(TC2_steps.java:19)\r\n\tat ✽.the user is at registeration page(file:///C:/Users/NVISWANA/Downloads/gmailMaven(1)/Gmail_maven/src/test/resources/Features/registration.feature:11)\r\n",
+              "duration": 1191859000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "the user is at registeration page",
+            "match": {
+              "location": "stepdefinition.TC2_steps.the_user_is_at_registeration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enters the data in the fields given",
+            "match": {
+              "location": "stepdefinition.TC2_steps.user_enters_the_data_in_the_fields_given()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-03T11:22:13.064Z",
+        "line": 15,
+        "name": "user should not be able to enter more than 10 characters in first name and last name",
+        "description": "",
+        "id": "check-login-functionality;user-should-not-be-able-to-enter-more-than-10-characters-in-first-name-and-last-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90\nCurrent browser version is 114.0.5735.199 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80032459\u0027, ip: \u002710.50.139.125\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x0042C013+2474003]\n\tOrdinal0 [0x003C29C1+2042305]\n\tOrdinal0 [0x002D2F68+1060712]\n\tOrdinal0 [0x002F188E+1185934]\n\tOrdinal0 [0x002ED600+1168896]\n\tOrdinal0 [0x002EAA83+1157763]\n\tOrdinal0 [0x0031A2A2+1352354]\n\tOrdinal0 [0x00318FAA+1347498]\n\tOrdinal0 [0x003166DB+1337051]\n\tOrdinal0 [0x002F3427+1192999]\n\tOrdinal0 [0x002F42EE+1196782]\n\tOrdinal0 [0x002F4279+1196665]\n\tGetHandleVerifier [0x005B96FC+1590332]\n\tGetHandleVerifier [0x00668614+2306900]\n\tGetHandleVerifier [0x004B9E93+543699]\n\tGetHandleVerifier [0x004B92CE+540686]\n\tOrdinal0 [0x003C86BA+2066106]\n\tOrdinal0 [0x003CD1C8+2085320]\n\tOrdinal0 [0x003CD308+2085640]\n\tOrdinal0 [0x003D67F3+2123763]\n\tBaseThreadInitThunk [0x76E27D59+25]\n\tRtlInitializeExceptionChain [0x77A6B74B+107]\n\tRtlClearBits [0x77A6B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdefinition.TC3_steps.user_is_at_the_registeration_page(TC3_steps.java:20)\r\n\tat ✽.user is at the registeration page(file:///C:/Users/NVISWANA/Downloads/gmailMaven(1)/Gmail_maven/src/test/resources/Features/registration.feature:16)\r\n",
+              "duration": 1156842300,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "user is at the registeration page",
+            "match": {
+              "location": "stepdefinition.TC3_steps.user_is_at_the_registeration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user should be able to enter the wrong \u003cfirstName\u003e and \u003clastName\u003e in the fields",
+            "match": {
+              "location": "stepdefinition.TC3_steps.user_should_be_able_to_enter_the_wrong_data_in_the_fields(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "should not be able to go to next page",
+            "match": {
+              "location": "stepdefinition.TC3_steps.should_not_be_able_to_go_to_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Third"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-03T11:22:14.229Z",
+        "line": 21,
+        "name": "user should not be able to continue with blank fields",
+        "description": "",
+        "id": "check-login-functionality;user-should-not-be-able-to-continue-with-blank-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90\nCurrent browser version is 114.0.5735.199 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80032459\u0027, ip: \u002710.50.139.125\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x0042C013+2474003]\n\tOrdinal0 [0x003C29C1+2042305]\n\tOrdinal0 [0x002D2F68+1060712]\n\tOrdinal0 [0x002F188E+1185934]\n\tOrdinal0 [0x002ED600+1168896]\n\tOrdinal0 [0x002EAA83+1157763]\n\tOrdinal0 [0x0031A2A2+1352354]\n\tOrdinal0 [0x00318FAA+1347498]\n\tOrdinal0 [0x003166DB+1337051]\n\tOrdinal0 [0x002F3427+1192999]\n\tOrdinal0 [0x002F42EE+1196782]\n\tOrdinal0 [0x002F4279+1196665]\n\tGetHandleVerifier [0x005B96FC+1590332]\n\tGetHandleVerifier [0x00668614+2306900]\n\tGetHandleVerifier [0x004B9E93+543699]\n\tGetHandleVerifier [0x004B92CE+540686]\n\tOrdinal0 [0x003C86BA+2066106]\n\tOrdinal0 [0x003CD1C8+2085320]\n\tOrdinal0 [0x003CD308+2085640]\n\tOrdinal0 [0x003D67F3+2123763]\n\tBaseThreadInitThunk [0x76E27D59+25]\n\tRtlInitializeExceptionChain [0x77A6B74B+107]\n\tRtlClearBits [0x77A6B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdefinition.TC4_steps.user_is_at_the_registeration_page(TC4_steps.java:17)\r\n\tat ✽.user should be at the registeration page(file:///C:/Users/NVISWANA/Downloads/gmailMaven(1)/Gmail_maven/src/test/resources/Features/registration.feature:22)\r\n",
+              "duration": 1166684000,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "user should be at the registeration page",
+            "match": {
+              "location": "stepdefinition.TC4_steps.user_is_at_the_registeration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user will click on next button",
+            "match": {
+              "location": "stepdefinition.TC4_steps.user_will_click_on_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user will not be redirected to next page",
+            "match": {
+              "location": "stepdefinition.TC4_steps.user_will_not_be_redirected_to_next_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fourth"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-03T11:22:15.407Z",
+        "line": 27,
+        "name": "Verify whether the password must Use 8 or more characters with a mix of letters, numbers \u0026 symbols",
+        "description": "",
+        "id": "check-login-functionality;verify-whether-the-password-must-use-8-or-more-characters-with-a-mix-of-letters--numbers-\u0026-symbols",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90\nCurrent browser version is 114.0.5735.199 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80032459\u0027, ip: \u002710.50.139.125\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x0042C013+2474003]\n\tOrdinal0 [0x003C29C1+2042305]\n\tOrdinal0 [0x002D2F68+1060712]\n\tOrdinal0 [0x002F188E+1185934]\n\tOrdinal0 [0x002ED600+1168896]\n\tOrdinal0 [0x002EAA83+1157763]\n\tOrdinal0 [0x0031A2A2+1352354]\n\tOrdinal0 [0x00318FAA+1347498]\n\tOrdinal0 [0x003166DB+1337051]\n\tOrdinal0 [0x002F3427+1192999]\n\tOrdinal0 [0x002F42EE+1196782]\n\tOrdinal0 [0x002F4279+1196665]\n\tGetHandleVerifier [0x005B96FC+1590332]\n\tGetHandleVerifier [0x00668614+2306900]\n\tGetHandleVerifier [0x004B9E93+543699]\n\tGetHandleVerifier [0x004B92CE+540686]\n\tOrdinal0 [0x003C86BA+2066106]\n\tOrdinal0 [0x003CD1C8+2085320]\n\tOrdinal0 [0x003CD308+2085640]\n\tOrdinal0 [0x003D67F3+2123763]\n\tBaseThreadInitThunk [0x76E27D59+25]\n\tRtlInitializeExceptionChain [0x77A6B74B+107]\n\tRtlClearBits [0x77A6B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdefinition.TC5_steps.user_get_to_registeration_page(TC5_steps.java:18)\r\n\tat ✽.user get to registeration page(file:///C:/Users/NVISWANA/Downloads/gmailMaven(1)/Gmail_maven/src/test/resources/Features/registration.feature:28)\r\n",
+              "duration": 1187244600,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "user get to registeration page",
+            "match": {
+              "location": "stepdefinition.TC5_steps.user_get_to_registeration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters all the details in the registeration form",
+            "match": {
+              "location": "stepdefinition.TC5_steps.user_enters_all_the_details_in_the_registeration_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user enters wrong password",
+            "match": {
+              "location": "stepdefinition.TC5_steps.user_enters_wrong_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003100,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "we veify if the user is not able to register",
+            "match": {
+              "location": "stepdefinition.TC5_steps.we_veify_if_the_user_is_not_able_to_register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fifth"
+          }
+        ]
+      }
+    ],
+    "name": "Check Login Functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/registration.feature",
+    "tags": []
+  }
+]
